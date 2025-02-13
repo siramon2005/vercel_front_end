@@ -160,7 +160,7 @@
             if (doctor_name_f.trim() == "" || doctor_phone_f.trim() == "") {
                 alert("กรุณากรอกข้อมูลให้ถูกต้อง");
             } else {
-                const apiUrl = (edit_type_f=="new")?'https://imi-62-231-bn-five.vercel.app/addDoctor':"http://localhost:3000/editDoctor";
+                const apiUrl = (edit_type_f=="new")?'https://imi-62-231-bn-five.vercel.app/addDoctor':"https://imi-62-231-bn-five.vercel.app/editDoctor";
                 
                 const data = {
                     doctor_id:doctor_ID_f,
